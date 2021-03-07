@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Graphik LC TT;
+}
+
+@font-face {
+    font-family: Graphik LC TT;
+    src: url(Graphik.ttf);
+}
+.header {
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    padding-left: 51px;
+    padding-top: 34px;
+    padding-bottom: 33px;
+    height: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 51px;
+    padding-right: 51px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.menu li {
+    padding-right: 40px;
+}
+
+.button {
+    width: 120px;
+    height: 45px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 200px;
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+.promo-button {
+    margin-left: 10px;
+    background-color: #FF6336;
+    color: #ffffff;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
